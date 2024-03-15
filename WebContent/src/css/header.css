@@ -1,0 +1,351 @@
+.body{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+/*首页顶部导航样式*/
+.header-nav{
+    width: 100%;
+    height:34px;
+    background-color: #ffffff;
+   /* border-bottom: 2px solid #F0F0F0;/*添加浅灰色底部边框*/
+}
+/*首页顶部下边框线样式补漏*/
+.line hr{
+    position: absolute;
+    background-color: #F0F0F0;/*颜色为浅灰色*/
+    height: 1px;
+    margin-top: 32px;
+    width: 100%;
+}
+.header-nav ul{
+    display: flex;/*给ul标签设置弹性布局*/
+    float: right;/*将导航浮动到页面右端*/
+    min-height: 34px;
+    min-width: 27%;
+    margin-right: -5%;
+
+}
+.header-nav li{
+    flex: 1;/*每个li元素均等分*/
+    list-style: none;/*清除小圆点*/
+    min-width: 100px;
+    line-height: 34px;
+}
+.header-nav li img{
+    display: inline-block;/*将图片转化为行内块级元素*/
+    width: 10px;
+    height: 12px;
+}
+/*设置导航中分割线的样式*/
+.header-nav li span{
+   margin:0 24%;
+}
+.header-nav li a{
+    color: #999999;
+    font-size: 12px;
+    height: 34px;
+    text-decoration: none;/*清楚下划线样式*/
+}
+
+/*首页顶部样式*/
+.header-main{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;/*子元素按横轴方向顺序排列，此属性为默认属性*/
+}
+/*logo样式*/
+.header-main section:nth-child(1){
+   /* margin: 0 15%;/*页面距离左边距距离*/
+    height: 100px;
+    flex: 1;
+    order: 1;   /*表示此元素排序为第1个*/
+}
+.header-main section:nth-child(1) img{
+    display:block;
+    width: 130px;
+    height: 100px;
+}
+/*目录样式*/
+.header-main section:nth-child(2){
+    min-width: 50px;
+   /* margin-left: -10%;*/
+    margin-left: 3%;
+    flex: 1;
+    order: 2;   /*表示此元素排序为第2个*/
+    line-height: 100px;/*使目录达到居中效果*/
+}
+.header-main section:nth-child(2)>b{
+    font-size: 16px;
+
+}
+.header-main section:nth-child(2):hover div{
+    visibility: visible;/*使分类展示板块的内容显示*/
+}
+/*目录分类样式*/
+.category{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;/*背景颜色*/
+   /* border: 1px solid #E5E5E5;/*添加边框*/
+    margin: -20px -120px;
+    border-radius: 20px;/*添加一定的元圆角效果*/
+    box-shadow: 0 0  20px 0 rgba(0,0,0,.05);/*添加外边框阴影效果*/
+    visibility: hidden;/*使分类展示板块的内容显示*/
+    border: 1px solid transparent;/*添加边框*/
+    z-index: 9;
+}
+.category ul{
+    margin: -50px -30px;
+    width: 300px;
+    height: 200px;
+}
+.category p{
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: -20px;
+    color: #333;
+}
+.category ul li{
+    float: left;
+    list-style: none;/*清除原点样式*/
+    margin:-10px 5px;
+}
+/*字体样式*/
+.category ul li a{
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;/*清楚下划线*/
+}
+.category ul li a:hover{
+    color: #f46;
+}
+/*搜索框样式*/
+.header-main section:nth-child(3){
+    margin-left: 3%;
+    height: 100px;
+    line-height: 80px;
+    flex: 1;
+    order: 3;/*表示此元素排序为第3个*/
+}
+/*表单样式*/
+.header-main section:nth-child(3) form{
+    height: 100px;
+    min-width: 500px;/*不设置具体宽度提交按钮不跟后显示*/
+}
+/*表单中输入框部分*/
+.header-main section:nth-child(3) form .form-group input{
+    min-width:392px;
+    height: 48px;
+    background-color: #f7f7f7;
+}
+/*表单中提交按钮部分*/
+.header-main section:nth-child(3) form .btn,.btn-default{
+    min-width:58px;
+    height: 48px;
+    background-color: #DDDDDD;
+}
+/*提交符号的样式*/
+.header-main section:nth-child(3) form button .glyphicon,.glyphicon-search{
+    line-height: 22px;
+    color: #fff;
+    font-size: 22px;
+}
+/*图标部分*/
+.header-main section:nth-child(4){
+    flex: 1;
+    order: 4;/*表示此元素排序为第4个*/
+    height:100px;
+   /* margin-left: 3%;*/
+}
+.header-main section:nth-child(4) #content{
+    display: flex;/*整体给4个图片设置弹性布局*/
+    height:100px
+}
+/*图标整体布局*/
+.header-main section:nth-child(4) #content div{
+    flex: 1;
+    position: relative;
+    height:100px;
+    width: 60px;
+}
+/*图标部分的各个图片*/
+.header-main section:nth-child(4) #content div a img{
+    display: block;/*转换为块级元素*/
+    width:24px;
+    height: 24px;
+    margin: 25px 0;
+}
+/*APP二维码图片*/
+.header-main section:nth-child(4) #content div>img{
+    position: relative;
+    display: block;
+    margin: 0 -80px;
+    visibility: hidden;/*先将图片给隐藏*/
+    z-index: 9;
+}
+.header-main section:nth-child(4) #content div:nth-child(4):hover img{
+    visibility: visible;/*当鼠标悬浮在盒子上时图片显现*/
+}
+
+/*图标部分的各个文字样式*/
+.header-main section:nth-child(4) #content div p{
+    position: absolute;
+    margin: -20px -4px;
+    font-weight: bold;/*字体加粗*/
+}
+/*登录部分*/
+.header-main section:nth-child(5){
+    flex: 1;
+    order: 5;/*表示此元素排序为第5个*/
+    height:100px;
+    margin-left: 6%;
+    position: relative;/*添加相对定位*/
+
+}
+.header-main section:nth-child(5) img{
+    display:block;/*转换为块级元素*/
+    width: 30px;
+    height: 30px;
+    float: left;/*添加浮动*/
+    margin-top: 28px;
+}
+.header-main section:nth-child(5) span{
+    position: absolute;/*添加绝对定位这样可以改变文字位置*/
+    width: 30px;
+    font-weight: bold;/*字体加粗*/
+    margin: 33px 5px;
+}
+.header-main section:nth-child(5) span a{
+    text-decoration: none;/*清除下划线*/
+    color:black ;
+}
+/*右侧导航栏*/
+.rightBar{
+    position: fixed;
+    height: 100%;
+    z-index: 9;
+    top: 0;/*背景样式置顶*/
+    width: 30px;
+    right: 0;
+    font-size: 12px;
+    background: #202020;
+}
+.rightBar ul{
+    display: flex;
+    flex-flow: column;
+    padding-top:80px;/*主体离顶部距离*/
+    margin-left: -40px;/*不加这个内容不会在背景上*/
+}
+.rightBar ul li{
+    flex: 1;
+    width:30px;
+    text-align: center;/*文字居中*/
+    padding-top: 10px;/*文字间距*/
+    list-style-type:none;/*清除原点样式*/
+}
+.rightBar ul li a{
+    display: block;
+    color: #fff;
+    line-height: 15px;/*控制文字间距*/
+    padding-bottom: 10px;
+    text-decoration:none;/*清楚下划线*/
+    width:10px;/*控制宽度使其能一行一个字*/
+    margin:0 auto;/*对其文字样式*/
+}
+.rightBar ul li:hover{
+    background-color:#f46;
+    margin-top:-1px;/*悬浮效果时文字有上浮动的感觉*/
+
+}
+/*客户服务中的子导航*/
+.rightBar ul li .div1 {
+    height: 90px;
+    visibility:hidden;/*将这个盒子隐藏*/
+    width: 100px;
+
+}
+.rightBar ul li .div1 ul{
+    width:100px;
+    margin-top: -90px;/*调整背景的位置距离*/
+    margin-left: -100px;
+    padding: 0;
+
+}
+.rightBar ul li .div1 ul>li{
+    width:100px;
+    background: #494949;/*跟上方样式有冲突，会有悬浮粉色效果*/
+
+}
+.rightBar ul li .div1 ul li a{
+    width:100px;
+    text-align:center;
+    text-decoration:none;
+}
+
+.rightBar ul :nth-child(4):hover .div1{
+    visibility:visible;/*鼠标悬浮时将这个盒子显现*/
+}
+/*商家后台中的子导航样式*/
+.rightBar ul li .div2{
+    width: 60px;
+    visibility:hidden;/*将这个盒子隐藏*/
+    margin-top:-80px;/*调整背景的位置距离*/
+    margin-left: -60px;
+}
+.rightBar ul li .div2 ul{
+    padding:10px 0;/*调整内部内容*/
+    background: #494949;
+}
+.rightBar ul li .div2 ul li{
+    width:100px;
+    background: #494949;/*跟上方样式有冲突，会有悬浮粉色效果*/
+
+}
+.rightBar ul li .div2 ul li a{
+    width:100px;
+    text-align:center;
+    text-decoration:none;/*清除下划线*/
+}
+
+.rightBar ul :nth-child(5):hover .div2{
+    visibility:visible;/*鼠标悬浮时将这个盒子显现*/
+}
+/*top置顶样式*/
+.rightBar>div>a{
+    position:absolute;
+    bottom:20px;
+    width:30px;
+    height: 40px;
+}
+.rightBar div img{
+    position:absolute;
+    display: block;/*转换为块级元素*/
+    bottom:20px;
+    right:5px;
+    width:20px;
+    border-top:1px solid #fff;/*横线的样式*/
+}
+.rightBar div p{
+    position:absolute;
+    color: #fff;/*字体颜色*/
+    width:20px;
+    margin: 20px 3px;
+
+}
+
+.rightBar>div>a:hover{
+    background-color:#f46;/*鼠标悬浮时，背景颜色改变*/
+    width:30px;
+    height: 40px;
+
+}

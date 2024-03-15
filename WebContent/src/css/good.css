@@ -1,0 +1,484 @@
+/*涓婚甯傚満鏍峰紡*/
+.top-main{
+    height: 40px;
+    width: 100%;
+}
+.top-main>section{
+    height: 40px;
+    width: 240px;
+    background-color: #f46;
+    border-top-left-radius:5px;/*宸︿笂杈硅*/
+    border-top-right-radius:5px;/*鍙充笂杈硅*/
+}
+.top-main>section ul{
+    margin-left:-17px;
+    line-height: 40px;/*灞呬腑鏄剧ず*/
+    color: #fff;
+}
+.top-main>section ul b{
+    font-size: 18px;
+    font-weight: normal;/*灏嗗姞绮楀瓧浣撳彉涓烘櫘閫氭牱寮�*/
+}
+/*涓讳綋澶у浘鐗�*/
+.content{
+    height: 440px;
+    width: 100%;
+    margin-left: 10%;
+    background: url("../img/content.jpg") no-repeat;/*鑳屾櫙鍥剧墖浣嶇疆*/
+}
+/*涓婚瀵艰埅宸﹂儴鍒�*/
+.content .content-nav-left{
+    margin-left: -10%;
+    margin-top: 3px;
+    width: 240px;
+    height: 443px;
+    background-color: rgba(255,255,255,0.8);/*鑳屾櫙棰滆壊鍜岄�忔槑搴�*/
+}
+.content .content-nav-left ul li{
+    padding: 8px 0 8px 14px;/*璁剧疆璺濈浣嶇疆*/
+    width: 240px;
+    margin-left: -40px;
+    list-style: none;/*娓呴櫎鍘熺偣鏍峰紡*/
+    line-height: 21px;
+    font-weight: 600;/*鍔犻噸*/
+
+}
+.content .content-nav-left ul li:hover{
+    border-left: 2px solid #f46;/*娣诲姞涓�涓乏杈规*/
+    margin-left: -42px;/*鏄紶鏍囨偓娴椂锛屽悗闈㈢殑鏍峰紡涓嶆敼鍙樹綅缃�*/
+    background-color: #ffffff;/*娣诲姞娴呯櫧鑹茶儗鏅�*/
+    width: 242px;
+}
+.content .content-nav-left ul li a{
+    padding: 0 5px 0 5px;/*璁剧疆瀛椾綋浣嶇疆*/
+}
+.content .content-nav-left ul li a:nth-child(1){
+    color: #333;
+    font-size: 15px;
+}
+.content .content-nav-left ul li a:nth-child(2){
+    color: #f46;
+    font-size: 13px;
+}
+.content .content-nav-left ul li a:nth-child(3){
+    color: #f46;
+    font-size: 13px;
+}
+.content .content-nav-left ul li a:nth-child(4){
+    color: #666;
+    font-size: 13px;
+}
+/*涓婚瀵艰埅鍙抽儴鍒�*/
+.content>.content-nav-right{
+    float: right;/*鍚戝彸娴姩*/
+    margin-top: -442px;
+    margin-right: 10%;
+    width: 166px;
+    height: 443px;
+    background-color: rgba(255,255,255,0.8);/*鑳屾櫙棰滆壊鍜岄�忔槑搴�*/
+}
+/*鑳屾櫙鏍峰紡琛ユ紡*/
+.back-ground{
+    height: 445px;
+    width: 100%;
+    position: absolute;
+    background-color: #95b560;/*璁剧疆鑳屾櫙棰滆壊涓庡浘鐗囬鑹茬浉杩�*/
+    margin-top: 185px;
+    z-index: -1;/*鍥剧墖灞傜骇*/
+    border-top: 3px solid #FF4466;/*璁剧疆涓婅竟妗嗙嚎*/
+}
+.goodback-ground{/*鍟嗗搧璇︽儏椤电矇鑹茶儗鏅�*/
+	    height: 1400px;
+    width: 100%;
+    position: absolute;
+    background-color:#FFF;/*璁剧疆鑳屾櫙棰滆壊涓庡浘鐗囬鑹茬浉杩�*/
+    margin-top: 185px;
+	border-top:20px solid #333;
+	}
+	/*鍙充晶鎺ㄨ崘鍟嗗搧*/
+	.goodrecommend{
+		margin-top:-600px;
+		margin-left:1100px;
+			width:200px;
+			height:620px;
+			border-left:2px #999999 solid;
+		
+		}
+		.goodrecommend1{
+			width:140px;
+			height:200px;
+			margin-top:10px;
+			margin-left:10px;
+			}
+			.goodrecommend2{
+				margin-top:10px;
+			margin-left:10px;
+					
+					width:140px;
+			height:200px;
+			
+				
+				}
+			 .goodrecommend3{
+				 	width:140px;
+			height:200px;
+	margin-top:10px;
+			margin-left:10px;
+				 
+				 
+				 }
+				 .bottomdescribe{ /*璐拱椤甸潰搴曢儴鐏拌壊瀵艰埅*/
+					 margin-top:100px;
+					 background-color:#999;
+					 width:1300px;
+					 height:60px;
+					 background-color:rgba(153,153,153,0.3)
+
+					 }
+					 .bottomBtnDes{ /*璐拱椤甸潰涓嬫柟璇︽儏鎸夐挳*/
+						 display:block;
+						 text-align:center;
+						 line-height:60px;
+						 border-top:5px solid #F00;
+				
+						 margin-left:10px;
+						 background-color:#FFF;
+						 width:160px;
+						 height:60px;}
+						 .DescribeImgandText{
+							 	 width:1300px;
+							  height:1200px;
+							  border:2px #CCCCCC solid;
+						
+							  
+							  
+							  }
+							 
+							 /*璐拱搴曢儴鍥炬枃*/
+						 
+.good{ /*鍟嗗搧璇︽儏椤�*/
+margin-top:30px;
+	width:380px;
+	height:600px;
+	background-color:#FFF;
+	opacity:80%;
+	margin-left:350px;
+	}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover {/*缂╃暐鍥緃over杈规*/
+	border:3px solid #00F;
+	opacity:100%;
+	}
+	.img1, .img2, .img3, .img4{/*缂╃暐鍥捐竟妗�*/
+		border:3px solid #000;
+		opacity:40%;
+		}
+.goodright{
+	width:550px;
+	height:600px;
+	margin-top:-610px;
+	margin-left:420px;
+	background-color:#FFF;/*鍟嗗搧璇︽儏椤靛彸渚�*/
+	}
+	
+.ClassGoodName{ /*璇︽儏椤靛晢鍝佸悕绉�*/
+	font-size: 27px;
+	font-weight: bold;
+	}
+.PriceShadow{ /*璇︽儏椤靛晢鍝佷环鏍�*/
+	width: 550px;
+	height: 70px;
+	background-color: rgba(153,153,153,0.3);
+	color: #F00;
+
+	}
+	/*______________鍙充晶闃村奖 瀹㈡湇 璐拱鎸夐挳绛塤___________*/
+	
+	.KeFutext{/*鑱旂郴瀹㈡湇鎸夐挳*/
+margin-left:90px;
+margin-top:-31px;
+font-size:15px;
+font-weight:bold;
+width:70px;
+text-decoration:none; 
+color:#00F; 
+display:block;
+border:2px  #999999 solid;
+text-align:center;
+
+		}
+		.KeFutext:hover{
+	text-decoration:none;
+	border:2px solid #033;
+			}
+			
+		.classchima{
+			margin-top:-30px;
+			margin-left:90px;
+		}
+	.classgoodnm{
+		margin-top:-31px;
+			margin-left:90px;
+
+		}
+	
+	.btnbuygoodclass{
+	width: 230px;
+	height: 50px;
+	margin-left: 90px;
+	margin-top: 30px;
+	background-color: rgb(255,0,0);
+	font-size: 25px;
+	color: #FFF;
+		
+
+		}
+	
+	
+	
+	
+	
+	/*______________鍙充晶闃村奖 瀹㈡湇 璐拱鎸夐挳绛塤___________*/
+	
+/*杞挱鍥炬澘鍧楀拰宸﹁竟澶у浘*/
+.foot-main{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 294px;
+    /*background-color:whitesmoke;*/
+    background-color: #ffffff;
+}
+/*宸﹁竟澶у浘*/
+.picture{
+    flex: 2;
+    width: 240px;
+    height: 294px;
+    background-image: url("../img/Time.png");
+    background-size: cover;/*浣垮浘鐗囨纭樉绀哄ぇ灏�*/
+}
+.picture p{
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 494px;
+    text-align: center;
+}
+/*杞挱鍥炬澘鍧�*/
+.carousel,.slide{
+    flex: 3;
+    width: 100%;
+    height: 294px;
+    box-shadow: 0 0  20px 0 rgba(0,0,0,.05);/*娣诲姞澶栬竟妗嗛槾褰辨晥鏋�*/
+    background-color: rgba(255,255,255,0.8);/*鑳屾櫙棰滆壊鍜岄�忔槑搴�*/
+    border: 1px solid transparent;/*娣诲姞杈规*/
+}
+/*杞挱鍥剧墖鏉垮潡*/
+.carousel-inner{
+    width: 100%;
+    height: 294px;
+}
+.carousel-inner .item,.active{
+    width: 900px;/*涓嶅畾姝诲搴︿細鏀瑰彉浣嶇疆*/
+    height: 254px;
+
+}
+.carousel-inner .item{
+    width: 900px;
+    height: 254px;
+
+}
+.carousel-inner .item.active section{
+    width: 170px;
+    height: 254px;
+    float: left;
+    margin: 18px;
+
+}
+.carousel-inner .item section{
+    width: 170px;
+    height: 254px;
+    float: left;
+    margin: 18px;
+
+}
+/*杞挱鍥剧墖婵�娲荤姸鎬佷笅璺濈宸︾璺濈*/
+.carousel-inner .item.active section:nth-child(1){
+    margin-left: 45px;
+}
+/*杞挱鍥剧墖鏈縺娲荤姸鎬佷笅璺濈宸︾璺濈*/
+.carousel-inner .item section:nth-child(1){
+    margin-left: 45px;
+}
+/*杞挱鍥剧墖婵�娲荤姸鎬�*/
+.carousel-inner .item.active section img{
+    display: block;
+    margin: 10px;
+    width: 170px;
+    height: 210px;
+}
+/*杞挱鍥剧墖鏈縺娲荤姸鎬�*/
+.carousel-inner .item section img{
+    display: block;
+    margin: 10px;
+    width: 170px;
+    height: 210px;
+}
+/*鍟嗗搧鎻忚堪*/
+.carousel-inner .item section span{
+    margin-left: 16px;
+    font-weight: bold;
+}
+/*鍟嗗搧浠锋牸*/
+.carousel-inner .item section h4{
+    margin-left: 16px;
+    color: #FF4466;
+}
+/*娓呴櫎鍘熷厛鐨勬牱寮�*/
+.carousel,.slide a{
+    width: auto;
+    height: auto;
+}
+/*宸︾澶�*/
+.carousel,.slide a .glyphicon,.glyphicon-chevron-left{
+    margin-left: 10px;
+}
+/*鍙崇澶�*/
+.carousel,.slide a .glyphicon,.glyphicon-chevron-right{
+    margin-right: 10px;
+}
+
+/*搴曢儴骞垮憡閮ㄥ垎*/
+.advisement{
+    width: 100%;
+    height: 150px;
+}
+.advisement a{
+    display: flex;
+    width: 100%; 
+    margin-left: -4px;
+}
+.advisement a img{
+    flex: 1;
+    display: block;
+    height: 150px;
+    padding: 12px;/*鍥剧墖闂磋窛*/
+}
+/*搴曢儴琛ユ紡鏍峰紡*/
+.foot-bg{
+    width: 100%;
+    height: 480px;
+    background: url("../img/foot-background.jpg");
+    background-size: cover;
+    margin-top:-450px;
+}
+/*搴曢儴鏍峰紡*/
+.foot{
+    width:100%;
+    color:#ffffff;
+}
+.foot.container{
+    width:100%;
+    margin:0 auto;
+}
+
+/*搴曢儴鍥剧墖鏍峰紡*/
+.foot img{
+    height:60px;
+    background-size:cover;
+    padding-left:30%;
+    padding-top:20px;
+    margin-bottom:50px;
+}
+/*鏂版墜甯姪鏉垮潡*/
+.foot .help .hr{
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    margin-top: 4px;
+}
+.foot .help li {
+    list-style-type:none;/*娓呴櫎鍘熺偣鏍峰紡*/
+    padding-top:10px;
+}
+.foot .help li a{
+    color:#ffffff;
+}
+.foot .help li a:hover{
+    text-decoration:none;
+    color:yellow;
+}
+
+/*鍏充簬鎴戜滑閮ㄥ垎*/
+.foot .body li{
+    float:left;
+    list-style-type:none;
+    padding-left:16px;
+    margin-top:40px;
+}
+
+.foot .body li a{
+    color: #ffffff;
+    font-size:9px;
+}
+.foot .body li a:hover{
+    color: yellow;
+    text-decoration:none;
+}
+/*鐗堟潈璇存槑閮ㄥ垎*/
+.foot .body2{
+    width:100%;
+    padding-top:20px;
+    margin-left: 20px;
+}
+/*绾挎潯*/
+.foot .body2 .line{
+    display:inline-block;
+    width:38%;/*绾挎潯瀹藉害*/
+    border-top:1px solid #cccccc;
+    vertical-align:5px;/*浣跨嚎鏉″眳涓枃瀛�*/
+}
+/*绾挎潯涓棿鏂囧瓧*/
+.foot .body2 .text{
+    margin-left:2%;
+    margin-right:2%;
+    font-size:12px;
+}
+/*钀ヤ笟鎵х収閮ㄥ垎*/
+.foot .body3{
+    width: 100%;
+    margin-top:10px;
+}
+.foot .body3 ul{
+    display: flex;
+    width:100%;
+    margin:0 auto;
+}
+.foot .body3 ul span{
+    margin-top: -4px;
+}
+.foot .body3 li{
+    flex: 1;
+    text-align: center;
+    list-style-type:none;
+    font-size:9px;
+    line-height: 14px;
+}
+/*娴欏叕缃戝畨澶�*/
+.foot .body4{
+    width: 100%;
+    margin-top:10px;
+}
+.foot .body4 ul{
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+}
+.foot .body4 ul span{
+    margin-top: -5px;
+}
+.foot .body4 li{
+    flex: 1;
+    list-style-type:none;
+    text-align: center;
+    line-height: 14px;
+    font-size:9px;
+}

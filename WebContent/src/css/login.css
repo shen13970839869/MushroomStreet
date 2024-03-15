@@ -1,0 +1,296 @@
+
+body {
+	background-color:#FFF;
+}
+.error{
+	font-size:15px;
+	color:#F90;
+	top:50px;
+	border-bottom:1px solid #F30;
+	}
+	#eck{ 
+	width:260px;
+	height:40px;
+	left:30px;
+		}
+
+
+/*————————————————↓↓↓↓↓↓↓↓登录 注册中间DIV(背景图)——————————*/
+#back{
+	width:1920px;
+	height:850px;
+	 background: url("../img/login/BK.png") no-repeat;
+	 background-position:center 40%;
+	 position:absolute;
+	}
+#back2{
+	width:1920px;
+	height:850px;
+	 background: url("../img/login/rbk.jpg") no-repeat;
+	 background-position:center 40%;
+	}
+/*————————————————↑↑↑↑↑↑↑↑登录 注册中间DIV(背景图)——————————*/
+	
+	
+	
+/*————————————————↓↓↓↓↓↓↓↓头部图片文字样式—————————————————*/
+
+#header{
+	width: 1520px;
+	height: 100px;
+	line-height: 50px;
+	background: url("../img/login/HD.png") no-repeat;
+	background-position: 3% center;
+	position:absolute;
+	}
+#header p{
+	margin-top:34px;
+	position: absolute;
+    height: 28px;
+    width: 861px;
+    margin-left: 380px;
+    background-color: #ffefef;
+    border: 1px solid #ffc0cc;
+    text-align: center;
+    line-height: 28px;
+    font-size: 11px;
+    color: #666;
+		}
+		
+#header img{
+			margin-left:330px;
+			margin-top:22px;
+			}
+/*————————————————↑↑↑↑↑↑↑↑头部图片文字样式———————————————————*/
+
+
+
+
+/*——————————↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓底部DIV及文字样式————————*/
+#footer{
+	width: 1920px;
+	height: 150px;
+	position: absolute;
+	margin-top: 750px;
+	left: 2px;
+	top: 4px;
+        }
+#footer p:nth-child(1){
+	margin-top: 140px;
+	font-size: 15px;
+	border-bottom:2px solid #666;
+	position: absolute;
+    width: 1200px;
+	margin-left:18%;
+	text-align: center;
+		}
+#footer p:nth-child(2){
+	margin-top: 100px;
+	font-size: 12px;
+	text-align: center;
+}
+#footer p:nth-child(3){
+	margin-top: 0px;
+	font-size: 12px;
+	text-align: center;
+		}
+/*——————————↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑底部DIV及文字样式————————*/	
+		
+		
+		
+		
+/*——————↓↓↓↓↓↓————登录和注册白色面板样式——↓↓↓↓↓↓———————————————*/
+#login {
+	width: 396px;
+	height: 480px;
+	position: absolute;
+	top: 134px;
+	left: 1361px;
+	background: #fff;
+	border: 4px;
+	box-shadow: 0px 0px 5px #999;/*阴影效果 水平偏移 垂直偏移  半边 颜色*/
+	border-radius: 5px;/*圆角*/
+	text-align: center;
+	opacity: 0.93;
+}
+#register{
+	width: 396px;
+	height: 480px;
+	position: absolute;
+	top: 134px;
+	left: 1361px;
+	background: #fff;
+	border: 4px;
+	box-shadow: 0px 0px 5px #999;/*阴影效果 水平偏移 垂直偏移  半边 颜色*/
+	border-radius: 5px;/*圆角*/
+	text-align: center;
+	opacity: 0.85;
+	}
+/*——————↑↑↑↑↑↑————登录和注册白色面板样式——↑↑↑↑↑↑———————————————*/
+
+
+
+
+
+/*——————↓↓↓↓↓↓————登录和注册面板标题LOGO定位——↓↓↓↓↓↓———————————*/
+
+#image_logo{
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+#Rimage_logo{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+/*——————↑↑↑↑↑↑————登录和注册面板标题LOGO定位——↑↑↑↑↑↑———————————*/
+
+
+
+
+
+/*——————↓↓↓↓↓↓———登录表单前小图标——↓↓↓↓↓↓————————————————————*/
+
+#username{
+    background: url("../img/login/user.png") no-repeat 5px center;
+}
+#password{
+    background: url("../img/login/password.png") no-repeat 5px center;
+}
+/*——————↑↑↑↑↑↑————登录表单前小图标——↑↑↑↑↑↑———————————————————*/
+
+
+
+
+
+
+/*——————↓↓↓↓↓↓———注册表单前小图标——↓↓↓↓↓↓————————————————————*/
+#email{
+    background: url(../img/login/email.png) no-repeat 5px center;}
+#Rpassword2{
+	background:url(../img/login/password.png) no-repeat 5px center;}
+#Rpassword{
+    background: url("../img/login/password.png") no-repeat 5px center;
+}
+#Rusername{
+    background: url("../img/login/user.png") no-repeat 5px center;
+}
+/*——————↑↑↑↑↑↑————注册表单前小图标——↑↑↑↑↑↑———————————————————*/
+
+
+
+
+
+
+/*————————————表单文本框样式—————↓↓↓↓↓↓↓↓↓↓↓↓↓↓————————————*/
+.text_field{
+    width: 330px;
+    height: 28px;
+    border: 0;
+    border-bottom:2px solid #eaeaea;
+    text-indent: 50px;
+	/*设置密码账号框大小以及单下划线*/         
+}
+/*————————————表单文本框样式—————↑↑↑↑↑↑↑↑↑↑↑↑↑↑————————————*/
+
+
+
+
+/*————————↓↓↓↓—————登录 注册 忘记密码超链接样式及hover——↓↓↓↓———————*/
+
+#Rdiv_login{
+ 
+	margin-top:20px;
+}
+
+#forget_pwd{
+    font-size: 12px;
+    color: #969696;
+    text-decoration: none;
+    float: right;
+	cursor:default;
+}
+#a_rg{
+    font-size: 12px;
+    color: #969696;
+    text-decoration: none;
+	float:right;
+	cursor:default;
+}
+#Rlgin_already{font-size: 12px;
+    color: #969696;
+    text-decoration: none;
+	float:right;
+	cursor:default;}
+#forget_pwd:hover {;
+    color: #333;
+    text-decoration:none;
+}
+#Rlgin_already:hover {;
+    color: #333;
+    text-decoration:none;
+}
+#a_rg:hover {;
+    color: #333;
+    text-decoration:none;
+}
+/*————————↑↑↑↑—————登录 注册 忘记密码超链接样式及hover——↑↑↑↑———————*/
+
+
+
+#btn_login{
+    font-size: 24px;
+    font-family: "微软雅黑";
+    color: white;
+	background-color: #F99;
+    width: 330px;
+    line-height: 55px;
+    text-align: center;
+    border:1px #CCC;
+	border-radius:20px;
+	box-shadow: 0px 0px 5px #999;
+}
+#Rbtn_rg{
+    font-size: 24px;
+    font-family: "微软雅黑";
+    color: white;
+	background-color: #F99;
+    width: 330px;
+    line-height: 55px;
+    text-align: center;
+    border:1px #CCC;
+	border-radius:20px;
+	box-shadow: 0px 0px 5px #999;
+}
+
+#div_password{
+margin-top: 60px ;}
+
+#div_forget{
+margin-right: 30px;
+margin-top: 8px;}
+
+#div_rg{
+margin-top: 30px;
+margin-right: 38px;}
+
+#div_btn_login{
+margin-top: 40px;}
+
+#btn_login:hover{
+background-color:#FC3;}
+
+#Rbtn_rg:hover{
+background-color:#FC3;}
+
+#Rdiv_username{
+	margin-top:30px;
+}
+#Rdiv_email{
+	margin-top:30px;
+}
+#Rdiv_password{
+    margin-top: 30px ;
+}
+#Rdiv_password2 {
+	margin-top: 30px;
+}

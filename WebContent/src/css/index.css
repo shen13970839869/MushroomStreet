@@ -1,0 +1,255 @@
+.body{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+/*主题市场样式*/
+.top-main{
+    height: 40px;
+    width: 100%;
+}
+.top-main>section{
+    height: 40px;
+    width: 240px;
+    background-color: #f46;
+    border-top-left-radius:5px;/*左上边角*/
+    border-top-right-radius:5px;/*右上边角*/
+}
+.top-main>section ul{
+    margin-left:-17px;
+    line-height: 40px;/*居中显示*/
+    color: #fff;
+}
+.top-main>section ul b{
+    font-size: 18px;
+    font-weight: normal;/*将加粗字体变为普通样式*/
+}
+/*主体大图片*/
+.content{
+    height: 440px;
+    width: 100%;
+    margin-left: 10%;
+    background: url("../img/content.jpg") no-repeat;/*背景图片位置*/
+}
+/*主题导航左部分*/
+.content .content-nav-left{
+    margin-left: -10%;
+    margin-top: 3px;
+    width: 240px;
+    height: 443px;
+    background-color: rgba(255,255,255,0.8);/*背景颜色和透明度*/
+}
+.content .content-nav-left ul li{
+    padding: 8px 0 8px 14px;/*设置距离位置*/
+    width: 240px;
+    margin-left: -40px;
+    list-style: none;/*清除原点样式*/
+    line-height: 21px;
+    font-weight: 600;/*加重*/
+
+}
+.content .content-nav-left ul li:hover{
+    border-left: 2px solid #f46;/*添加一个左边框*/
+    margin-left: -42px;/*是鼠标悬浮时，后面的样式不改变位置*/
+    background-color: #ffffff;/*添加浅白色背景*/
+    width: 242px;
+}
+.content .content-nav-left ul li a{
+    padding: 0 5px 0 5px;/*设置字体位置*/
+}
+.content .content-nav-left ul li a:nth-child(1){
+    color: #333;
+    font-size: 15px;
+}
+.content .content-nav-left ul li a:nth-child(2){
+    color: #f46;
+    font-size: 13px;
+}
+.content .content-nav-left ul li a:nth-child(3){
+    color: #f46;
+    font-size: 13px;
+}
+.content .content-nav-left ul li a:nth-child(4){
+    color: #666;
+    font-size: 13px;
+}
+/*主题导航右部分*/
+.content>.content-nav-right{
+    float: right;/*向右浮动*/
+    margin-top: -442px;
+    margin-right: 9%;
+    width: 170px;
+    height: 443px;
+    /*background-color: rgba(255,255,255,0.8);!*背景颜色和透明度*!*/
+}
+.content>.content-nav-right .top{
+    margin: 10px auto;
+    width: 170px;
+    height: 220px;
+    background-color: rgba(255,255,255,0.8);/*背景颜色和透明度*/
+}
+.content>.content-nav-right .top p{
+    position: absolute;
+    color: #333;
+    margin-top: 100px;
+    margin-left: 3px;
+}
+
+.content>.content-nav-right .bottom{
+    width: 170px;
+    height: 190px;
+    background-color: rgba(255,255,255,0.8);/*背景颜色和透明度*/
+}
+.content>.content-nav-right .bottom img{
+    display: block;
+    width: 170px;
+    height: 190px;
+}
+/*背景样式补漏*/
+.back-ground{
+    height: 445px;
+    width: 100%;
+    position: absolute;
+    background-color: #95b560;/*设置背景颜色与图片颜色相近*/
+    margin-top: 185px;
+    z-index: -1;/*图片层级*/
+    border-top: 3px solid #FF4466;/*设置上边框线*/
+}
+/*轮播图板块和左边大图*/
+.content-main{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 294px;
+    /*background-color:whitesmoke;*/
+    background-color: #ffffff;
+}
+/*左边大图*/
+.picture{
+    flex: 2;
+    width: 240px;
+    height: 294px;
+    background-image: url("../img/carousel/Time.png");
+    background-size: cover;/*使图片正确显示大小*/
+}
+.picture p{
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 494px;
+    text-align: center;
+}
+/*轮播图板块*/
+.carousel,.slide{
+    flex: 3;
+    width: 100%;
+    height: 294px;
+    box-shadow: 0 0  20px 0 rgba(0,0,0,.05);/*添加外边框阴影效果*/
+    background-color: rgba(255,255,255,0.8);/*背景颜色和透明度*/
+    border: 1px solid transparent;/*添加边框*/
+}
+/*轮播图片板块*/
+.carousel-inner{
+    width: 100%;
+    height: 294px;
+}
+.carousel-inner .item,.active{
+    width: 900px;/*不定死宽度会改变位置*/
+    height: 254px;
+
+}
+.carousel-inner .item{
+    width: 900px;
+    height: 254px;
+
+}
+.carousel-inner .item.active section{
+    width: 170px;
+    height: 254px;
+    float: left;
+    margin: 18px;
+
+}
+.carousel-inner .item section{
+    width: 170px;
+    height: 254px;
+    float: left;
+    margin: 18px;
+
+}
+/*轮播图片激活状态下距离左端距离*/
+.carousel-inner .item.active section:nth-child(1){
+    margin-left: 45px;
+}
+/*轮播图片未激活状态下距离左端距离*/
+.carousel-inner .item section:nth-child(1){
+    margin-left: 45px;
+}
+/*轮播图片激活状态*/
+.carousel-inner .item.active section a img{
+    display: block;
+    margin: 10px;
+    width: 170px;
+    height: 210px;
+}
+/*轮播图片未激活状态*/
+.carousel-inner .item section a img{
+    display: block;
+    margin: 10px;
+    width: 170px;
+    height: 210px;
+}
+/*商品描述*/
+.carousel-inner .item section a span{
+	display: block;
+    margin-left: 16px;
+    font-weight: bold;
+    height: 18px;
+    color:#333;
+    overflow: hidden;
+    margin-top: -3px;
+}
+/*商品价格*/
+.carousel-inner .item section a h4{
+    margin-left: 16px;
+    color: #FF4466;
+}
+.carousel-inner .item section a:hover{
+	  text-decoration: none;/*清楚下划线样式*/
+}
+/*清除原先的样式*/
+.carousel,.slide a{
+    width: auto;
+    height: auto;
+}
+/*左箭头*/
+.carousel,.slide a .glyphicon,.glyphicon-chevron-left{
+    margin-left: 10px;
+}
+/*右箭头*/
+.carousel,.slide a .glyphicon,.glyphicon-chevron-right{
+    margin-right: 10px;
+}
+
+/*底部广告部分*/
+.advisement{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+}
+.advisement a{
+    display: flex;
+    width: 100%;
+    margin-left: -4px;
+}
+.advisement a img{
+    flex: 1;
+    display: block;
+    height: 150px;
+    padding: 12px;/*图片间距*/
+}

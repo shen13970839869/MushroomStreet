@@ -1,0 +1,78 @@
+
+/*分类页*/
+.choose{
+    border:1px solid silver;
+    width: 100%;
+    height: auto;
+}
+/*导航背景*/
+.nav,.nav-pills.navbar-center{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0,0,0,.03);
+    position: relative;
+}
+
+.nav,.nav-pills.navbar-center li:nth-child(1){
+    padding-left: 20px;
+}
+
+/*设置选项卡菜单鼠标悬停和获取焦点时的背景色和字体颜色*/
+.nav-pills>li.active>a:link, .nav-pills1>li.active>a:focus,
+.nav-pills>li.active>a:hover,.nav-pills>li.active>a:active {
+    background-color:#ffffff;
+    border-top: 3px solid #f46;
+    color:#333 ;
+    padding-top:-3px;
+}
+/*导航字体*/
+.nav,.nav-pills.navbar-center li  a {
+    height: 40px;
+    color: #333;
+    border-radius: 0;
+    line-height: 22px;
+}
+/*每个盒子大小*/
+.thumbnail{
+    position: relative;
+    width: 240px;
+    height: auto;
+}
+/*每个盒子标题*/
+.thumbnail .caption a p{
+	 line-height: 22px;
+	 height:42px;
+	 overflow:hidden;
+	 color:#333;	 
+}
+.thumbnail .caption  a:hover{
+	text-decoration: none;/*清楚下划线样式*/
+}
+
+/*每个盒子图片大小*/
+.thumbnail  a img{
+    display: block;
+    width: 240px;
+    height: 290px;
+}
+/*商品价格*/
+.thumbnail .caption  h4{
+    float: left;
+    line-height: 8px;
+    color: #f46;
+}
+/*收藏图标*/
+.thumbnail .caption a img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: -5px;
+}
+/*收藏字体*/
+.thumbnail .caption b{
+    display: inline-block;
+    margin: 2px;
+
+}
